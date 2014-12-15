@@ -17,3 +17,7 @@ If something should happen to the remote 0 you can have a backup. I guess the ma
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without github - probably I'd use email, text. Both could get confusing for the collaborator - because they would have to read my messages in a particular order - so github would be good for keeping that straight - and if several people were working eith me it would be very confusing who did what , or rememberibng who I asked for help - remebering who I sent a pull request to
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When you are introducing a new feature you're not sure will work and you don't want to break master. It leaves moe of a trail if you do it this way too, though it certainly is more confusing and compliccated to me.
+The benefits of making changes to just the master? It simplifies things a bit - probably more appropriate for smaller projects that are being worked on by only a few people at the same time.
+
